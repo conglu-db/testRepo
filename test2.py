@@ -1,5 +1,4 @@
 # Databricks notebook source
-# MAGIC %sql
-# MAGIC select 1
-# MAGIC %sql
-# MAGIC select 2
+# MAGIC %sql --param-name="test"
+# MAGIC select 1;
+# MAGIC select 2;
